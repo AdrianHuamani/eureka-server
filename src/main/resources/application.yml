@@ -1,0 +1,7 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  renewalPercentThreshold: '0.85'
+server:
+  port: '8761'
